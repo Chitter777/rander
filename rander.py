@@ -30,7 +30,7 @@ while fors != None:
     if cmd == "about":
         print(f'{i}RANDER - это небольшая программа по рандомизации, ака "Лохотрон" :3')
         print()
-        print(f"{n}Проект был залит на GitHub: https://github.com/Chitter777/rander")
+        print(f"{i}Проект был залит на GitHub: https://github.com/Chitter777/rander. \n Мой дискорд: Chitter777#0070")
     elif cmd.startswith("help"):
         if cmd.endswith(" about"):
             print(f"{i}" + Fore.YELLOW + "about" + Style.RESET_ALL + " - о программе"),
@@ -94,6 +94,9 @@ while fors != None:
             print(Fore.GREEN + f"{i}Ваше число: {__while}" + Style.RESET_ALL)
             print(Fore.GREEN + f"{i}Всего доступных чисел для генерации: {allNum}" + Style.RESET_ALL)
             print(Fore.GREEN + f"{i}Количество генераций: {fors}" + Style.RESET_ALL)
+            fors = 0
+            num = None
+            __while = None
             time.sleep(2)
             print()
 
