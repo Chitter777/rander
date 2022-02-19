@@ -29,6 +29,8 @@ while fors != None:
     cmd = input(inp)
     if cmd == "about":
         print(f'{i}RANDER - это небольшая программа по рандомизации, ака "Лохотрон" :3')
+        print()
+        print(f"{n}Проект был залит на GitHub: https://github.com/Chitter777/rander")
     elif cmd.startswith("help"):
         if cmd.endswith(" about"):
             print(f"{i}" + Fore.YELLOW + "about" + Style.RESET_ALL + " - о программе"),
